@@ -1,0 +1,7 @@
+Question: Hello, how are you today?
+============================================================
+[Step 1]
+Thought: The user is greeting and asking how I am. I should respond politely and briefly.  
+Action: finish  
+Action Input: I'm doing well, thank you! How can I help you today?
+Final Answer: I'm doing well, thank you! How can I help you today?

@@ -1,0 +1,20 @@
+Question: Check stock for Amoxicillin 500mg and tell me how many packs are available.
+============================================================
+[Step 1]
+Thought: Calling MCP tool check_stock.
+Action: check_stock
+Action Input: {"item": "Amoxicillin", "strength": "500mg"}
+Observation: {
+  "item": "Amoxicillin",
+  "strength": "500mg",
+  "form": "capsules (pack of 21)",
+  "quantity": "40",
+  "unit_price_ghs": "35.00",
+  "expiry_date": "2027-12-31"
+}
+------------------------------------------------------------
+[Step 2]
+Thought: The stock check returned 40 packs of Amoxicillin 500 mg.
+Action: finish
+Action Input: 40 packs are available.
+Final Answer: 40 packs are available.
